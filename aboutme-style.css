@@ -1,0 +1,44 @@
+h3{
+	color:blue;
+}
+img{
+	width: 300px;
+	height: 400px;
+font-family: 	: Times new Roman; 
+}
+h1{
+	font-family: Verdana;
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+   text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	 color: blue;
+  
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	text-decoration: underline;
+ color: #00FF00;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+   text-decoration: underline;
+}
+h2::first-letter {
+    font-size: 1.5em;
+    float: left;
+    
+   }
